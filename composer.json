@@ -1,14 +1,14 @@
 {
-    "name": "hoaaah/yii2-rest-api-template",
-    "description": "REST API Template with Yii2",
+    "name": "davi/teste-em-cash",
+    "description": "BackEnd emCash test",
     "license": "Apache-2.0",
     "require": {
         "yiisoft/yii2": "~2.0.0"
     },
     "authors": [
         {
-            "name": "Arief Wijaya",
-            "email": "hoaaah.arief@gmail.com"
+            "name": "Davi Porto Araujo",
+            "email": "portodaviporto@gmail.com"
         }
     ],
     "repositories": [
@@ -16,5 +16,20 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ]
+    ],
+    "require-dev": {
+        "codeception/codeception": "^4.2",
+        "codeception/specify": "^2.0",
+        "codeception/verify": "^2.2",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0",
+        "codeception/module-rest": "^2.0",
+        "codeception/module-yii2": "^1.1",
+        "codeception/module-db": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
 }

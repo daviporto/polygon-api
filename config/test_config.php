@@ -11,8 +11,8 @@
 
 use \yii\rest\UrlRule;
 
-$db = require(__DIR__ . '/db.php');
 
+$db = require(__DIR__ . '/test_db.php');
 
 return [
     'id' => 'micro-app',
